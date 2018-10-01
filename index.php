@@ -1,11 +1,31 @@
 <?php
-	if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
-		$uri = 'https://';
-	} else {
-		$uri = 'http://';
-	}
-	$uri .= $_SERVER['HTTP_HOST'];
-	header('Location: '.$uri.'/dashboard/');
-	exit;
+	Include("conexion.php");
 ?>
-Something is wrong with the XAMPP installation :-(
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario</title>
+    <meta charset="utf-8">
+    <link type="text/css" href="./../css/style.css" rel="stylesheet" />
+</head>
+ 
+<body>
+   <DIV ALIGN=CENTER>
+   <h1>Bienvenido a Primaria Benito Juarez</h1>
+ 	</DIV>
+   <form method="get" action="registro_usuarios.php"> 
+   	<input type="submit" value="Registar usuarios"/>
+   </form>
+
+   <form method="get" action="registro_alumnos.php"> 
+   	<input type="submit" value="Registar alumnos"/>
+   </form>
+
+   <form method="get" action="login.php"> 
+   	<input type="submit" value="LogIn"/>
+   </form>
+ 
+</body>
+ 
+</html>
+
