@@ -37,9 +37,9 @@
                    <p><label for="apellido_mat">Apellido Materno:</label></p>
                         <input name="Apellido_Materno" type="text" id="apellido_mat" class="apellido_mat" placeholder="" /></p>
  
-                    <DIV ALIGN=RIGHT>
+                    
                     <p id="bot"><input name="submit" type="submit" id="boton" value="Registrar" class="boton"/></p>
-                </DIV>
+
                 </form>
             </div>
  

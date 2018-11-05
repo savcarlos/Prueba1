@@ -49,8 +49,12 @@
 	 ?>
 	</table>
 	<form method="get" action="exp.php"> 
-    <input type="submit" value="csv"/>
+    <input type="submit" value="Exportar csv"/>
+	</form>
 
+    <form method="get" action="importar_CSV.php"> 
+    <input type="submit" value="Impotar csv"/>
+	</form>
 
 	<a href="registro_usuarios.php"</a>Regresar</a>
 

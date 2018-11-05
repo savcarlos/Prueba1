@@ -45,6 +45,17 @@
 	</table>
 	<form method="get" action="exp_u.php"> 
     <input type="submit" value="csv"/>
+	</form>
+	<form method="get" action="pdf.php"> 
+    <input type="submit" value="Obtener PDF"/>
+  </form>
+  <form method="get" action="graph.php"> 
+    <input type="submit" value="Obtener grafica"/>
+  </form>
+	<form method="get" action="importar_CSV.php"> 
+    <input type="submit" value="Importar csv"/>
+	</form>
+	<a class="botonI" onClick="window.print()">Imprimir</a>
 
 
 	<a href="registro_alumnos.php"</a>Regresar</a>

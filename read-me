@@ -1,0 +1,36 @@
+# Proyecto Escuela
+
+Este es un proyecto basado en los datos almacenados por una escuela, la cual tiene información desde alumnos a maestros. El proyecto permite registar, guardar, borrar y mostrar en una tabla los datos requeridos. A su vez, puede sacar una gráfica de los datos de la tabla así como un archivo csv.
+
+## Instrucciones 🚀
+
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+Lo primero que se verá será la pantalla de inicio. Aquí, se podrá observar el nombre de la escuela en el encabezado seguido de 3 botones: el primero llamado "Registar usuarios", el cual, como su nombre lo dice nos llevará a otra pantalla donde podremos registrarnos escribiendo nuestro nombre, apellidos, correo y una contraseña donde se dice. Al terminar, se oprimirá el botón "Registrar" haciendo que nuestros datos queden guardados dentro de la base de datos. Aparte de esto, tenemos otro botón abajo que nos permitirá ver la tabla de las personas registradas hasta el momento. Esta tabla se irá actualizando conforme más registros se hagan. Dentro de la tabla, podremos borrar o editar datos, así como exportar la tabla a csv o importar una tabla csv.
+
+De regreso a la pantalla de inicio, tenemos el botón "Registrar alumnos", el cual hace casi exactamente lo mismo que el botón anterior con la diferencia de que aquí solo solicitará el nombre y los apellidos. De igual forma tenemos abajo un botón "Registar" el cual guardará los datos en una base de datos y proporcionará un ID a cada nuevo registro. Abajo, se ecnuentra el botón de "Mostrar tabla de alumnos" que nos permitirá ver los alumnos registrados, así como podremos eliminar y editar cada dato. Dentro de la tabla de igual forma tenemos botones para exportar o importar un documento csv, pero también tenemos un botón que nos permitirá hacer un documento PDF con nuestra tabla, otro botón que nos realizará una gráfica con nuestros datos y un botón que nos permite imprimir el documento directamente. 
+
+
+
+### Instalación 🔧
+
+*Para instalar mysql : sudo apt-get update sudo apt-get install mysql-server mysql-client sudo mysql_secure_installation sudo apt-get install mysql-workbench
+
+*Para instalar XAMPP: Primero se descarga .run de xampp chmod + x xampp-linux-x64-7.1.10-0-installer.ru Se sigue los pasos de instalacion sudo /opt/lampp/lampp start
+
+
+## Construido con 🛠️
+
+_Menciona las herramientas que utilizaste para crear tu proyecto_
+
+* [phpMyadmin](http://localhost/phpmyadmin/) 
+* [Maven](https://maven.apache.org/) - Manejador de dependencias
+* [Sublime Text]- Usado para generar código 
+
+
+## Autores ✒️
+
+* **Carlos Sánchez Villegas** - (https://github.com/savcarlos/)
+
+
+También puedes mirar la lista de todos los [contribuyentes](https://github.com/savcarlos/Prueba1/contributors) quíenes han participado en este proyecto. 
+
